@@ -9,7 +9,7 @@
 
 <script>
 $(document).ready(function(){
-	$("#fade").fadeIn();
+	$("#fade").fadeIn(1200);
 	
 	});
 </script>
@@ -19,6 +19,10 @@ $(document).ready(function(){
 </div>
 
 <form class="form-inline">
+  <div class="form-group">
+    <label for="exampleInputName2" class="label">I'm</label>
+    <input type="text" class="form-control" id="item" placeholder="Bob">
+  </div>
   <div class="form-group">
     <label for="exampleInputName2" class="label">Get me</label>
     <input type="text" class="form-control" id="item" placeholder="Food">
