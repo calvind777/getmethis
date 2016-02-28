@@ -1,3 +1,40 @@
-#what{
-	font-family: "franklin-gothic-urw", sans-serif;
+
+
+body{
+	background-color:#00b5ec;
+	position:relative;
+}
+.form-inline{
+	
+	color:white;
+
+	position: relative;
+  top: 50%;
+  font-size:2em;
+  font-weight:100;
+  
+  text-align:center;
+  transform: translateY(-50%);
+  transition:all .4s linear;
+}
+.label{
+	opacity:0.8;
+	font-weight:100;
+	
+	
+}
+#fade{
+	height:100%;
+}
+
+#title{
+	font-size:5em;
+	font-weight:bold;
+	color:white;
+	position:fixed;
+}
+#button{
+	background-color:white;
+	color:#00b5ec;
+	vertical-align: bottom;
 }
