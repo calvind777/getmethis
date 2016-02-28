@@ -15,7 +15,7 @@ body{
   
   text-align:center;
   transform: translateY(-50%);
-  transition:all .4s linear;
+  
 }
 .label{
 	opacity:0.8;
